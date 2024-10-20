@@ -26,7 +26,7 @@ document.getElementById('btn-donation-card-1').addEventListener('click', functio
         <p class="font-light text-xs mt-2">Data: ${new Date()}</p>
     </div>
     `
-        inputElement('history-container').prepend(divContainer)
+        inputElement('history-container').prepend(divContainer) 
     }
 })
 
